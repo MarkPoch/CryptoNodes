@@ -1,0 +1,31 @@
+Setting Up Your Taiko Katla Node:Setup Guide
+
+Summary
+This guide outlines the process of setting up a Taiko Katla Node, a versatile platform for Blockchain Development. The setup involves accessing a Virtual Private Server (VPS) using Putty, installing necessary components such as Docker and SCREEN, and deploying the Taiko Katla Node using Docker Compose. By following these steps, you can efficiently deploy and manage your node, showcasing your skills in VPS management, Docker, and node deployment. This documentation provides a clear and concise overview of the setup process, suitable for both beginners and experienced users alike.
+
+
+1. Accessing Your VPS
+
+Use Putty to securely connect to your VPS using the provided IP address, root login, and password.
+2. Installing Necessary Components
+
+Update your VPS to ensure it has the latest software packages.
+Install essential components such as pkg-config, curl, git, build-essential, libssl-dev, libclang-dev, and ufw to prepare the environment.
+3. Setting Up Docker
+
+Check if Docker is installed and if not, install it along with Docker Compose.
+Docker is a platform for developing, shipping, and running applications inside containers, which are isolated environments.
+4. Installing SCREEN
+
+Install SCREEN, a terminal multiplexer, to manage multiple terminal sessions from a single window.
+5. Node Installation
+
+Clone the Taiko Katla Node repository from GitHub.
+Set up the environment configuration file (.env) based on the provided sample file.
+6. Starting the Node
+
+Launch the Taiko Katla Node using Docker Compose.
+Monitor the node's activity and synchronization progress by checking logs.
+7. Monitoring Node Status
+
+Access the Grafana Dashboard to track the sync status of your node.
